@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+.label{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column; 
+}
+
+#button{
+    background-color: blueviolet;
+    padding: 4px;
+    border-radius: 4px;
+    color:white;
+}
+
+#para{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
+#p1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20%;
+    
+}
+
+#p2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20%;
+
+}
