@@ -1,48 +1,219 @@
-body{
-    background-color: aqua;
+.bg{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOWhA-Hmc3waWG7ivlMHR9CbdwBlk_ZqnO5baRLUEubyITPmgGKaZy65U-hILUzQneitvl_WUeD8&usqp=CAU&ec=48665698");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .label{
-    font-size: x-large;
+    font-size:x-large;
     font-weight: bold;
+    color: white;
 
 }
 
+.card{
+    width: 330px;
+    position:absolute;
+    left:35%;
+    top:10%;
+    padding: 68px;
+    background-color: rgb(31, 26, 26,0.2);
+
+    
+  
+    border-left: 2px solid rgb(95, 95, 156);
+    border-bottom: 2px solid rgb(95, 95, 156);
+    border-top:2px solid rgb(74, 70, 70) ;
+    border-right:1px solid rgb(97, 90, 90) ;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+
+    border-radius: 12px;
+    transform:
+    
+    translate3d(8px, 6px, -5600px);
+   
+    
+
+}
+#number{
+    padding-right: 10px;
+    padding-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid blueviolet;
+    border-radius: 14px;
+    background-color: rgb(182, 175, 175);
+}
+
+#number:hover{
+    border: 2px solid blueviolet;
+    padding-right: 10px;
+    padding-left: 90px;
+    padding-top: 5px;
+    
+    
+}
+
 .container{
+    
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 0%;
     flex-direction: column; 
 }
 
 #button{
     background-color: blueviolet;
-    padding: 4px;
-    border-radius: 4px;
+    padding:10px;
+    border-radius: 8px;
     color:white;
+    cursor: pointer;
+}
+#button:hover{
+    background-color:rgb(98, 77, 235);
+    /* color: black; */
 }
 
 #para{
     display: flex;
     justify-content: center;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
+    color: white;
 }
 #p1{
     display: flex;
     justify-content: flex-start;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
-    margin-left: 20%;
+   
+    color: white;
+    
     
 }
 
 #p2{
     display: flex;
     justify-content: flex-start;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
-    margin-left: 20%;
+    
+    color: white;
 
 }
+
+@media(max-width:600px){
+    .bg{
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOWhA-Hmc3waWG7ivlMHR9CbdwBlk_ZqnO5baRLUEubyITPmgGKaZy65U-hILUzQneitvl_WUeD8&usqp=CAU&ec=48665698");
+        background-repeat:repeat-y;
+        background-size: cover;
+        height: 700px;
+        
+    }
+
+    .label{
+        font-size:16px;
+        font-weight: bold;
+        color: white;
+    
+    }
+    
+    .card{
+        width: 40%;
+        left: 10%;
+        top:20%;
+        height: 250px;
+        background-color: rgb(31, 26, 26.0.2);
+    
+        border-left: 2px solid rgb(95, 95, 156);
+        border-bottom: 2px solid rgb(95, 95, 156);
+        border-top:2px solid rgb(74, 70, 70) ;
+        border-right:1px solid rgb(97, 90, 90) ;
+    
+        border-radius: 12px 12px 12px 12px;
+        transform:
+        
+        translate3d(1px, 3px, -5600px);
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        
+        
+    
+    }
+    #number{
+        padding-right: 1px;
+        padding-left: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border: 2px solid rgb(109, 51, 164);
+        border-radius: 14px;
+        background-color: rgb(182, 175, 175);
+    }
+    
+    #number:hover{
+        border: 2px solid blueviolet;
+        padding-right: 1px;
+        padding-left: 10px;
+        padding-top: 1px;
+        
+        
+    }
+    
+   
+    
+    #button{
+        background-color: blueviolet;
+        padding:1px;
+        border-radius: 5px 5px 5px 5px;
+        color:white;
+        cursor: pointer;
+    }
+    #button:hover{
+        background-color:rgb(98, 77, 235);
+       
+    }
+    
+    #para{
+
+        display: flex;
+        justify-content: center;
+       
+    
+        font-size: small;
+        font-weight: bold;
+       
+        color: white;
+    }
+    #p1{
+
+        display: flex;
+        justify-content: flex-start;
+        
+        position: absolute;
+        left: 8%;
+        font-size: small;
+        font-weight: bold;
+        
+       
+        color: white;
+        
+    }
+    
+    #p2{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        left: 8%;
+        
+        font-size: small;
+        font-weight: bold;
+        
+        color: white;
+    
+    }
+    
+
+}
+    

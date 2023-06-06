@@ -16,7 +16,7 @@ display =() =>{
     var c=0;
     para1= document.getElementById("para")
 
-    if(value%1==0){
+    if(value%1==0 && value!=""){
         
 
 
